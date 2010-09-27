@@ -5,4 +5,4 @@ Feature: Lookup a provider's NPI record
 
   Scenario: Retrieving provider record by NPI number
     Given the remote server will respond to an NPI request
-    Then the record for NPI number "0123456789" should belong to "JOHN SNOW"
+    Then the record for NPI number "1154455640" should belong to "DIANA FENTON"
