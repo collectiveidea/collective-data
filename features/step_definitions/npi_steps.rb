@@ -4,5 +4,5 @@ end
 
 Then /^the record for NPI number "([^\"]*)" should belong to "([^\"]*)"$/ do |npi, name|
   provider = Provider.find(npi)
-  provider.name.should == name
+  assert_equal name, provider.name
 end
