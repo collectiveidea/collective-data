@@ -38,7 +38,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'activeresource', ">= 0"
   s.add_development_dependency 'thoughtbot-shoulda'
   s.add_development_dependency 'cucumber'
-  s.add_development_dependency 'ruby-debug'
   s.add_development_dependency 'fakeweb'
 end
 

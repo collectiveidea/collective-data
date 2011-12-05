@@ -1,6 +1,5 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__) + '/../../lib')
 require 'collective_data'
-require 'ruby-debug'
 
 require 'test/unit/assertions'
 require File.dirname(__FILE__)+"/../../lib/collective_data_test_helper"
